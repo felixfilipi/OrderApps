@@ -30,7 +30,7 @@ class Checkout : AppCompatActivity() {
 
         back_btn.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+g            startActivity(intent)
             finish()
         }
 
